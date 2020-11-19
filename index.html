@@ -6,6 +6,7 @@
     <title>Conix A | Personal administrativo</title>
     <link href="images/favicon.png" rel="icon" type="image/png">
     <link href="styles/index.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
@@ -14,14 +15,26 @@
     <!-- Header -->
     <header id="home">
 
+        <div id="nav" class="boxsh">
+            <img src="images/nav_icon.png">
+            <nav>
+                <a href="#home" class="scroll-to">Inicio</a>
+                <a href="#about" class="scroll-to">Sobre nosotros</a>
+                <a href="#method" class="scroll-to">Método</a>
+                <a href="#benefits" class="scroll-to">Beneficios</a>
+                <a href="#services" class="scroll-to">Servicios</a>
+                <a href="#contact" class="scroll-to">Contacto</a>
+            </nav>
+        </div>
+
         <div class="home-content">
             <div class="welcome">
-                <div class="logo-container">
+                <div class="logo-container" data-aos="flip-right" data-aos-duration="1000">
                     <img src="images/conix_a_logo_white.png" alt="Imagen logotipo">
                 </div>
                 <div class="welcome-txt">
                     <h1 id="type-it"></h1>
-                    <a href="#contact" class="scroll-to">Solicita una entrevista online</a>
+                    <a href="#contact" class="scroll-to" data-aos="fade-up" data-aos-duration="2000">Solicita una entrevista online</a>
                 </div>
             </div>
         </div>
@@ -30,8 +43,8 @@
 
     <!-- Fill message -->
     <article id="fill">
-        <p class="mb-15"><strong>¿Alguna vez ha pensado en los beneficios económicos de tener alguien trabajando para usted desde otro país?</strong></p>
-        <p><i>Aproveche los beneficios de tener un empleado trabajando desde nuestra oficina 100% para usted y supervisado por nosotros.</i></p>
+        <p class="mb-15" data-aos="fade-left"><strong>¿Alguna vez ha pensado en los beneficios económicos de tener alguien trabajando para usted desde otro país?</strong></p>
+        <p data-aos="fade-right"><i>Aproveche los beneficios de tener un empleado trabajando desde nuestra oficina 100% para usted y supervisado por nosotros.</i></p>
     </article>
 
     <!-- Main -->
@@ -39,7 +52,7 @@
 
         <article id="about">
             <h2 class="mb-30">Sobre nosotros</h2>
-            <p>Somos una oficina radicada en Argentina, trabajando para empresas
+            <p data-aos="fade-in" data-aos-duration="1000">Somos una oficina radicada en Argentina, trabajando para empresas
             españolas, las cuales nos han delegado algunas de sus tareas administrativas
             por los <span>beneficios</span> que representa nuestro servicio.</p>
         </article>
@@ -47,19 +60,19 @@
         <article id="method">
             <h2 class="mb-30">¿Cómo funciona?</h2>
             <div class="steps">
-                <div class="step step-first boxsh">
+                <div class="step step-first boxsh" data-aos="flip-right">
                     <img src="images/step_01.png" alt="Avion de papel"> 
                     <h3>Solicite una entrevista online con nosotros.</h3>
                 </div>
-                <div class="step boxsh">
+                <div class="step boxsh" data-aos="flip-right">
                     <img src="images/step_02.png" alt="Correo"> 
                     <p>Le enviamos un máximo de 10 CV para que pueda escoger a su empleado/a.</p>
                 </div>
-                <div class="step boxsh">
+                <div class="step boxsh" data-aos="flip-right">
                     <img src="images/step_03.png" alt="Agenda"> 
                     <p>Programamos una entrevista por medio de video-conferencia via skype/whatsapp</p>
                 </div>
-                <div class="step step-last boxsh">
+                <div class="step step-last boxsh" data-aos="flip-right">
                     <img src="images/step_04.png" alt="Pulgar arriba"> 
                     <h3>Usted decide la contratación.</h3>
                 </div>
@@ -67,7 +80,7 @@
         </article>
 
         <article id="benefits">
-            <div>
+            <div data-aos="fade-right" data-aos-duration="1200">
                 <h2 class="mb-30">Beneficios de nuestro servicio</h2>
                 <ul>
                     <li>Tu personal trabaja desde nuestras oficinas.</li>
@@ -78,7 +91,7 @@
                     <li>Costo por hora de trabajo aproximado de <span><strong>2€.</strong></span></li>
                 </ul>
             </div>
-            <img src="images/benefits_img.png" alt="Representación de beneficios">
+            <img src="images/benefits_img.png" alt="Representación de beneficios" data-aos="fade-left" data-aos-duration="1200">
         </article>
 
         <article id="services">
@@ -86,51 +99,51 @@
                 <h2 class="mb-30">¿Qué servicios ofrecemos?</h2>
             </div>
             <div class="card-container">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/call_center_icon.png" alt="Teléfono" class="mb-15">
                     <p class="mb-15">ATENCIÓN AL CLIENTE</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/content_icon.png" alt="Personal de ayuda" class="mb-15">
                     <p class="mb-15">CONTENIDO EN REDES SOCIALES</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/management_icon.png" alt="Ventana de chat" class="mb-15">
                     <p class="mb-15">GESTIÓN DE REDES SOCIALES</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/marketing_icon.png" alt="Ventana de chat" class="mb-15">
                     <p class="mb-15">MARKETING</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/logistic_icon.png" alt="Ventana de chat" class="mb-15">
                     <p class="mb-15">LOGÍSTICA</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/sales_icon.png" alt="Ventana de chat" class="mb-15">
                     <p class="mb-15">VENTAS</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/spreading_icon.png" alt="Ventana de chat" class="mb-15">
                     <p class="mb-15">DIFUSIONES</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/fellow_icon.png" alt="Ventana de chat" class="mb-15">
                     <p class="mb-15">SEGUIMIENTOS E-COMMERCE</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/accountancy_icon.png" alt="Ventana de chat" class="mb-15">
                     <p class="mb-15">CONTADURÍA EXTERNA</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/administration_icon.png" alt="Ventana de chat" class="mb-15">
                     <p class="mb-15">ADMINISTRACIÓN GENERAL</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/office_icon.png" alt="Ventana de chat" class="mb-15">
                     <p class="mb-15">MANEJO DE PAQUETE OFFICE</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
                     <img src="images/human_resources_icon.png" alt="Ventana de chat" class="mb-15">
                     <p class="mb-15">RECURSOS HUMANOS</p>
                 </div>
@@ -144,7 +157,7 @@
             <p class="mb-15">ó</p>
             <a href="https://api.whatsapp.com/send?phone=5493513051596" target="_blank" class="mb-5"><button class="wapp-btn">Whatsapp</button></a>
             <p>+54 9 351 305-1596</p>
-            <img src="images/conix_a_logo_white.png" alt="Logotipo">
+            <img src="images/conix_a_logo_white.png" alt="Logotipo" data-aos="fade-up" data-aos-duration="1000">
         </article>
 
     </main>
@@ -159,6 +172,12 @@
     <script src="scripts/type_it_header.js"></script>
     <script src="scripts/current_year.js"></script>
     <script src="scripts/scroll_to.js"></script>
+    <script src="scripts/nav_bar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
     
 </body>
 </html>

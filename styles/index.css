@@ -25,6 +25,43 @@ main {
     margin: 0 auto;
 }
 
+/* NAV
+-------------------------------------------------------------*/
+#nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 5%;
+    top: 20px;
+    background-color: var(--orange);
+    padding: 15px;
+    border-radius: 999px;
+    z-index: 999;
+    transition: all 0.2s;
+} #nav:hover {
+    cursor: pointer;
+    background-color: var(--base);
+}
+
+#nav nav { 
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+#nav img {
+    width: 40px;
+}
+
+#nav nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+} #nav nav a:hover { color: var(--orange) }
+
 /* HEADER
 -------------------------------------------------------------*/
 #home {
