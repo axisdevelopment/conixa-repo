@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conix A | Bienvenid@!</title>
+    <title>Conix A | Personal administrativo</title>
+    <link href="images/favicon.png" rel="icon" type="image/png">
     <link href="styles/index.css" rel="stylesheet">
-    <link href="styles/magic.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
@@ -20,7 +20,8 @@
                     <img src="images/conix_a_logo_white.png" alt="Imagen logotipo">
                 </div>
                 <div class="welcome-txt">
-                    <h1>Tu nuevo personal de <span id="type-it"></span></h1>
+                    <h1 id="type-it"></h1>
+                    <a href="#contact" class="scroll-to">Solicita una entrevista online</a>
                 </div>
             </div>
         </div>
@@ -29,8 +30,8 @@
 
     <!-- Fill message -->
     <article id="fill">
-        <a id="anim-asset-1"><i>"Con Conix A, tener a tu personal administrativo
-            profesional, remoto y dedicado nunca fue más <strong><span class="black">simple</span></strong>."</i></a>
+        <p class="mb-15"><strong>¿Alguna vez ha pensado en los beneficios económicos de tener alguien trabajando para usted desde otro país?</strong></p>
+        <p><i>Aproveche los beneficios de tener un empleado trabajando desde nuestra oficina 100% para usted y supervisado por nosotros.</i></p>
     </article>
 
     <!-- Main -->
@@ -38,45 +39,107 @@
 
         <article id="about">
             <h2 class="mb-30">Sobre nosotros</h2>
-            <p>Conix A es un equipo dedicado a ofrecer servicios de administración 
-            para empresas internacional sobre tareas administrativas, soporte, 
-            servicio, atención o demás rubros, sin la 
-            necesidad de tener al empleado ubicado bajo el mismo
-            techo.<br>Desde una ubicación remota y de forma
-            online, nuestro equipo de administración calificado se encargará de
-            todas las asignaciónes dadas de forma <span>eficiente</span>
-            y <span>sin distracciones.</span></p>
+            <p>Somos una oficina radicada en Argentina, trabajando para empresas
+            españolas, las cuales nos han delegado algunas de sus tareas administrativas
+            por los <span>beneficios</span> que representa nuestro servicio.</p>
+        </article>
+
+        <article id="method">
+            <h2 class="mb-30">¿Cómo funciona?</h2>
+            <div class="steps">
+                <div class="step step-first boxsh">
+                    <img src="/images/step_01.png" alt="Avion de papel"> 
+                    <h3>Solicite una entrevista online con nosotros.</h3>
+                </div>
+                <div class="step boxsh">
+                    <img src="/images/step_02.png" alt="Correo"> 
+                    <p>Le enviamos un máximo de 10 CV para que pueda escoger a su empleado/a.</p>
+                </div>
+                <div class="step boxsh">
+                    <img src="/images/step_03.png" alt="Agenda"> 
+                    <p>Programamos una entrevista por medio de video-conferencia via skype/whatsapp</p>
+                </div>
+                <div class="step step-last boxsh">
+                    <img src="/images/step_04.png" alt="Pulgar arriba"> 
+                    <h3>Usted decide la contratación.</h3>
+                </div>
+            </div>
+        </article>
+
+        <article id="benefits">
+            <div>
+                <h2 class="mb-30">Beneficios de nuestro servicio</h2>
+                <ul>
+                    <li>Tu personal trabaja desde nuestras oficinas.</li>
+                    <li>Trabajo 100% supervisado por nosotros.</li>
+                    <li>Horarios de ingreso y egreso totalmente controlados.</li>
+                    <li>Brindamos todos los recursos necesarios.</li>
+                    <li>Se abona mensual en españa y en moneda local.</li>
+                    <li>Costo por hora de trabajo aproximado de <span><strong>2€.</strong></span></li>
+                </ul>
+            </div>
+            <img src="/images/benefits_img.png" alt="Representación de beneficios">
         </article>
 
         <article id="services">
             <div class="services-txt">
-                <h2 class="mb-30">¿Qué ofrecemos?</h2>
-                <p class="mb-15">Desde nuestra oficina, destinamos a un empleado
-                capacitado para que relice las tareas asignadas en <i>tiempo y forma</i>,
-                cumpliendo con todos los <strong>terminos del cliente</strong>.</p>
-                <h4>Algunos de los servicios de los cuales nuestro personal puede encargarse incluyen:</h4>
+                <h2 class="mb-30">¿Qué servicios ofrecemos?</h2>
             </div>
             <div class="card-container">
                 <div class="card">
-                    <img src="images/service_01.png" alt="Teléfono" class="mb-15">
-                    <h3 class="mb-15">SECRETARÍA</h3>
-                    <p>Cargos administrativos multitareas relacionadas a la entidad.</p>
+                    <img src="images/call_center_icon.png" alt="Teléfono" class="mb-15">
+                    <p class="mb-15">ATENCIÓN AL CLIENTE</p>
                 </div>
                 <div class="card">
-                    <img src="images/service_02.png" alt="Personal de ayuda" class="mb-15">
-                    <h3 class="mb-15">SOPORTE</h3>
-                    <p>Servicio de ayuda interno o externo, respuestas, cargo de casos, derivaciones.</p>
+                    <img src="images/content_icon.png" alt="Personal de ayuda" class="mb-15">
+                    <p class="mb-15">CONTENIDO EN REDES SOCIALES</p>
                 </div>
                 <div class="card">
-                    <img src="images/service_03.png" alt="Ventana de chat" class="mb-15">
-                    <h3 class="mb-15">ATENCIÓN</h3>
-                    <p>Atención al cliente, mensajería, correos, redes, llamadas.</p>
+                    <img src="images/management_icon.png" alt="Ventana de chat" class="mb-15">
+                    <p class="mb-15">GESTIÓN DE REDES SOCIALES</p>
+                </div>
+                <div class="card">
+                    <img src="images/marketing_icon.png" alt="Ventana de chat" class="mb-15">
+                    <p class="mb-15">MARKETING</p>
+                </div>
+                <div class="card">
+                    <img src="images/logistic_icon.png" alt="Ventana de chat" class="mb-15">
+                    <p class="mb-15">LOGÍSTICA</p>
+                </div>
+                <div class="card">
+                    <img src="images/sales_icon.png" alt="Ventana de chat" class="mb-15">
+                    <p class="mb-15">VENTAS</p>
+                </div>
+                <div class="card">
+                    <img src="images/spreading_icon.png" alt="Ventana de chat" class="mb-15">
+                    <p class="mb-15">DIFUSIONES</p>
+                </div>
+                <div class="card">
+                    <img src="images/fellow_icon.png" alt="Ventana de chat" class="mb-15">
+                    <p class="mb-15">SEGUIMIENTOS E-COMMERCE</p>
+                </div>
+                <div class="card">
+                    <img src="images/accountancy_icon.png" alt="Ventana de chat" class="mb-15">
+                    <p class="mb-15">CONTADURÍA EXTERNA</p>
+                </div>
+                <div class="card">
+                    <img src="images/administration_icon.png" alt="Ventana de chat" class="mb-15">
+                    <p class="mb-15">ADMINISTRACIÓN GENERAL</p>
+                </div>
+                <div class="card">
+                    <img src="images/office_icon.png" alt="Ventana de chat" class="mb-15">
+                    <p class="mb-15">MANEJO DE PAQUETE OFFICE</p>
+                </div>
+                <div class="card">
+                    <img src="images/human_resources_icon.png" alt="Ventana de chat" class="mb-15">
+                    <p class="mb-15">RECURSOS HUMANOS</p>
                 </div>
             </div>
         </article>
 
         <article id="contact">
             <h2 class="mb-30">Entremos en contacto</h2>
+            <p class="mb-15">Solicite su entrevista online o consultenos por nuestras vias de contacto:</p>
             <h3 class="mb-15"><span>conixadm@gmail.com</span></h3>
             <p class="mb-15">ó</p>
             <a href="https://api.whatsapp.com/send?phone=5493513051596" target="_blank" class="mb-5"><button class="wapp-btn">Whatsapp</button></a>
@@ -88,13 +151,14 @@
 
     <!-- Footer -->
     <footer>
-        <p class="tiny">Conix A. Copyright © 2020, todos los derechos reservados.</p>
+        <p id="cr" class="tiny"></p>
     </footer>
 
     <script src="scripts/j_query.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
     <script src="scripts/type_it_header.js"></script>
-    <script src="scripts/animations.js"></script>
+    <script src="scripts/current_year.js"></script>
+    <script src="scripts/scroll_to.js"></script>
     
 </body>
 </html>
