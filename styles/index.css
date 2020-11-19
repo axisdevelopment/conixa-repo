@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --orange: #FF6F00;
+    --gray: #212121;
+    --base: #263238;
+    --green: #25d366;
+
+}
+
+html {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: linear-gradient(white, rgba(55, 71, 79, 0.3));
+}
+
+main {
+    position: relative;
+    top: -80px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* HEADER
+-------------------------------------------------------------*/
+#home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../images/bg_header.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.welcome {
+    width: 100%;
+}
+
+.logo-container {
+    width: min-content;
+    padding: 6px 30px;
+    margin: 0 auto;
+    background-color: var(--base);
+    border-radius: 999px;
+}
+
+.welcome img {
+    width: 280px;
+}
+
+.welcome-txt {
+    text-align: center;
+    margin: 20px auto;
+    padding: 0px 40px;
+    color: white;
+    text-shadow: 2px 2px 2px var(--base);
+}
+
+/* FILL
+-------------------------------------------------------------*/
+#fill {
+    width: 100%;
+    padding: 80px 0 160px 0;
+    text-align: center;
+    background-color: var(--orange);
+    font-size: 22px;
+    color: white;
+}
+
+/* ABOUT
+-------------------------------------------------------------*/
+#about {
+    width: 100%;
+    padding: 100px 20%;
+    text-align: center;
+    background-color: var(--base);
+    color: white;
+}
+
+/* SERVICES
+-------------------------------------------------------------*/
+#services {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    background-color: white;
+    color: var(--base)
+}
+
+.services-txt {
+    margin: 0 20%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 80px;
+    padding: 0 10%;
+}
+
+.card {
+    width: 32%;
+    padding: 30px 20px;
+    background-color: var(--orange);
+    color: white;
+    transition: all 0.2s;
+} .card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/* CONTACT
+-------------------------------------------------------------*/
+#contact {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    background-color: var(--base);
+    color: white;
+}
+
+#contact img {
+    margin-top: 80px;
+    width: 420px;
+}
+
+/* FOOTER
+-------------------------------------------------------------*/
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    background-color: var(--gray);
+    color: white;
+}
+
+/* COMPLEMENTS
+-------------------------------------------------------------*/
+/* Text */
+h1 {
+    font-size: 46px;
+    line-height: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+span {
+    color: var(--orange);
+} .black {
+    color: var(--base);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.tiny {
+    font-size: 12px;
+}
+
+/* Buttons */
+.wapp-btn {
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    padding: 6px 40px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: var(--green);
+    color: white;
+    transition: all 0.3s;
+} .wapp-btn::before {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    content: url("../images/whatsapp_white.png");
+    overflow: hidden;
+} .wapp-btn:hover { 
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+}
+
+/* Decoration */
+.txtsh { text-shadow: 4px 4px 4px rgba(0,0,0,0.4) }
+
+.boxsh { box-shadow: 0px 0px 10px rgba(55, 71, 79, 0.5) }
+
+/* Spacing */
+.mb-5 { margin-bottom: 5px }
+.mb-15 { margin-bottom: 15px }
+.mb-30 { margin-bottom: 30px }
+
+.mr-30 { margin-right: 30px }
