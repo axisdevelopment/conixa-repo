@@ -32,8 +32,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 5%;
     right: 5%;
-    top: 20px;
     background-color: var(--orange);
     padding: 15px;
     border-radius: 999px;
@@ -113,11 +113,11 @@ main {
     font-weight: 700;
     color: white;
     background-color: var(--orange);
+    box-shadow: 0px 8px var(--base);
     border-radius: 999px;
     transition: all 0.2s;
 } .welcome-txt a:hover {
-    transform: translateY(-8px);
-    box-shadow: 0px 8px var(--base);
+    transform: translateY(-8px) !important;
 }
 
 /* FILL
