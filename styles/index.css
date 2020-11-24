@@ -33,7 +33,7 @@ main {
     justify-content: center;
     align-items: center;
     top: 5%;
-    right: 5%;
+    right: 3%;
     background-color: var(--orange);
     padding: 15px;
     border-radius: 999px;
@@ -61,6 +61,24 @@ main {
     color: white;
     text-decoration: none;
 } #nav nav a:hover { color: var(--orange) }
+
+/* WHATSAPP BUTTON
+-------------------------------------------------------------*/
+#whatsapp {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 5%;
+    right: 3%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--green);
+    border-radius: 50px;
+    z-index: 999;
+} #whatsapp:hover {
+    cursor: pointer;
+}
 
 /* HEADER
 -------------------------------------------------------------*/
