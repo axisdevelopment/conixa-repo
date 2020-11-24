@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
     new TypeIt("#type-it", {
-        strings: "¿Buscas personal <span>administrativo</span>?",
-        speed: 70,
+        strings: "Entérate de los beneficios de contratar personal <span>administrativo</span> en otro país",
+        speed: 50,
         cursor: false
     })
         .go();
